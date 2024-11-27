@@ -1,0 +1,63 @@
+*{
+    background: transparent;
+    transition: .3s;
+}
+
+.bg-login-img{
+    background: url('./assets/images/login-bg.jpg');
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    mix-blend-mode: darken;
+}
+
+.login form{
+    width: 40vw;
+    padding: 4rem;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.shadow-md{
+    box-shadow: 2px 2px 10px rgba(0,0,0,.01), -2px -2px 10px rgba(0,0,0,.01);
+}
+
+/* .text{
+    color: rgb(235, 58, 27);
+} */
+ .w-mc{
+    width: max-content;
+ }
+
+input[type=text]{
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+.rounded-lg{
+    border-radius: 15px;
+}
+
+.search{
+    width: 40vw;
+    padding: 18px;
+}
+
+.rounded-edges{
+    border-radius: 100px;
+}
+
+@media (max-width: 800px){
+    .bg-login-img{
+        display: none;
+    }
+    .login form{
+        width: 100vw;
+        padding: 2rem;
+    }
+}
